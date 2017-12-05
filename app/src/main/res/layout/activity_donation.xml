@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.londoncentralmosque.DonationActivity">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        layout="@layout/app_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#005451"
+        android:orientation="vertical"
+        android:layout_height="420dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#fff">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prayer Times"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="19dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateCurrent"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fajr "
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sunrise"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Zuhr"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Asr"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maghrib"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Isha"
+                        android:textStyle="bold"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fajr"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sunrise"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/zuhr"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/asr"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/magrib"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/isha"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The stated time is adhan time and Iqamah will be about 10 minute after Adhan"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Friday Jummah Azaan:1.03 pm"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sermon / Khutba starts: 1:25pm "
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Prayer Ends: 2:00 pm"
+                android:layout_marginLeft="20dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--tools:context=".MainActivity">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:animateLayoutChanges="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/header1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#c6c6c6"-->
+        <!--android:textColor="#005451"-->
+        <!--android:text="Zakat"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="33sp"-->
+        <!--/>-->
+
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/section1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:text="Zakat is a mandatory duty on all able Muslims who meet nisab values. There is no ambiguity as to the rate at which Zakat should be calculated; 2.5% of all net savings one possesses that is above the nisab value. Net savings is total maintained wealth for one lunar year before Zakat is due. "-->
+        <!--android:textSize="20sp"-->
+        <!--/>-->
+        <!--<Button-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:id="@+id/donateLink"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:onClick="donateZakat"-->
+        <!--android:background="@drawable/donatelogo"-->
+        <!--android:textSize="25sp"-->
+
+        <!--android:layout_margin="10dp"-->
+
+        <!--/>-->
+
+
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/header2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="center"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#c6c6c6"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:textColor="#005451"-->
+        <!--android:text="Zakat Al Fitr"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:textSize="33sp"-->
+        <!--/>-->
+
+
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/section2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="Zakat al-Fitr is a form of charity given to the poor at the end of Ramadan. "-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:text="Zakat al-Fitr is £7"-->
+        <!--android:textSize="22sp"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:text="Zakat al-Fitr is due on every member of a household, including any children or elderly persons and is obligatory to pay before the day of Eid. "-->
+        <!--android:textSize="22sp"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:text=" The amount of Zakat al-Fitr is the value of one meal which must be received by the person in need before the Eid prayer. As such, we recommend that you make a donation as early as possible in Ramadan.  "-->
+        <!--android:textSize="22sp"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:text="For any questions about Zakat al-Fitr please contact our donor care team on 020 77252215.  "-->
+        <!--android:textSize="22sp"-->
+        <!--/>-->
+        <!--<Button-->
+        <!--android:layout_width="120dp"-->
+        <!--android:background="@drawable/donatelogo"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:onClick="donateFitr"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textSize="25sp"-->
+        <!--android:textStyle="bold"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<TextView-->
+        <!--android:id="@+id/header3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#c6c6c6"-->
+        <!--android:textColor="#005451"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:text="Sadaqah"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:textSize="33sp"-->
+        <!--/>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/section3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:text="When a person dies, all their deeds end except three: a continuing charity, beneficial knowledge and a child who prays for them. (hadith of the Prophet (pbuh), narrated by Muslim) Ongoing Charity - Sadaqah Jariyah - is one of the most valuable acts we can do in this life, which continues benefiting us in the next, even after we have left the earth. "-->
+        <!--/>-->
+        <!--<Button-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:onClick="donateSadaqah"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:background="@drawable/donatelogo"-->
+        <!--/>-->
+
+
+        <!--</LinearLayout>-->
+        <!--<TextView-->
+        <!--android:id="@+id/header4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#c6c6c6"-->
+        <!--android:textColor="#005451"-->
+        <!--android:text="Fidya"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="33sp"-->
+        <!--/>-->
+
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/section4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:textSize="22sp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:text="When someone cannot fast in Ramadan and can't make them up afterwards (due to ill health or pregnancy) they pay for someone else to be fed. The Cost is £7 per meal "-->
+        <!--/>-->
+        <!--<Button-->
+        <!--android:layout_width="120dp"-->
+        <!--android:background="@drawable/donatelogo"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:onClick="donateFidya"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/header5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#c6c6c6"-->
+        <!--android:textColor="#005451"-->
+        <!--android:text="Kaffarah"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:textSize="33sp"-->
+        <!--/>-->
+
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/section5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:textSize="20sp"-->
+        <!--android:text="Kaffarah is the compensation that you should give if you deliberately miss or break a fast in the month of Ramadan without a valid reason.  "-->
+        <!--/>-->
+        <!--<Button-->
+        <!--android:layout_width="120dp"-->
+        <!--android:background="@drawable/donatelogo"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:onClick="donateKaffarah"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<TextView-->
+        <!--android:id="@+id/header6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#c6c6c6"-->
+        <!--android:textColor="#005451"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:text="Mosque Fund"-->
+        <!--android:textAlignment="center"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:textSize="33sp"-->
+        <!--/>-->
+        <!--<LinearLayout-->
+        <!--android:id="@+id/section6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone">-->
+
+
+        <!--<Button-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@drawable/donatelogo"-->
+        <!--android:onClick="donateMosque"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:orientation="vertical">-->
+        <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--app:cardCornerRadius="5dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textStyle="bold"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="22sp"-->
+        <!--android:text="Donations by Cheque "-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textStyle="bold"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="20sp"-->
+        <!--android:text=" Postal Order of Bankers Draft"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Please  make Cheques payable to The Islamic   Cultural   Centre  And post to :"-->
+        <!--android:gravity="center_vertical"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20sp"-->
+        <!--android:text="Finance Dept. The Islamic Cultural centre and   The   London   Central Mosque 146 Park Road, London, NW8 7RG"-->
+        <!--android:textAlignment="center"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--app:cardCornerRadius="5dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="22sp"-->
+        <!--android:text="By Person"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textAlignment="center"-->
+        <!--android:gravity="center_vertical" />-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="You are most welcome to donate/pay in person by going to office    211 during Ramadan office hours: Monday - Friday 11am - 5pm"-->
+        <!--android:gravity="center_vertical" />-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Telephone: 020 7725 2211 / 15"-->
+        <!--android:gravity="center_vertical" />-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Or by emailing: donate@iccuk.org"-->
+        <!--android:gravity="center_vertical" />-->
+
+        <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+
+
+
+
+
+
+        <!--</LinearLayout>-->
+
+
+        <!--</LinearLayout>-->
+        <!--</ScrollView>-->
+    </LinearLayout>
+    <include
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        layout="@layout/custom_menu"
+        />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/footer"
+        />
+</LinearLayout>
+

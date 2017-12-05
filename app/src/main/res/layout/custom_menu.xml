@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/downlogo1"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/wellcome"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="wellcome"
+            android:src="@drawable/wellcome12" />
+
+        <ImageButton
+            android:id="@+id/about_us"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="about"
+            android:src="@drawable/mosque" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="departmentLink"
+            android:src="@drawable/department12" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="newsLink"
+            android:src="@drawable/news12" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="eventLink"
+            android:src="@drawable/event12" />
+
+        <ImageButton
+            android:id="@+id/donate"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="donate"
+            android:src="@drawable/minar" />
+
+        <ImageButton
+            android:id="@+id/contact"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="contact"
+            android:src="@drawable/contact12" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+

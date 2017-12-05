@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.londoncentralmosque.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/app_bar">
+        </include>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:background="@drawable/background2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/main_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="#80ffffff"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp">
+
+                    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:context=".MainActivity">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/myRecycleView">
+                            </android.support.v7.widget.RecyclerView>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/newsId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:onClick="newsLink"
+                        android:text="News"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/eventLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:onClick="eventLink"
+                        android:text="Events"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#005252"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/simpleSwitch"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"/>
+
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:src="@drawable/sound"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--/>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/timeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18sp"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff" />
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--android:textAllCaps="true"-->
+                <!--android:text="Friday Prayer Time 1:15 PM "-->
+                <!--android:textColor="#ffffff" />-->
+            </LinearLayout>
+
+            <!--<ImageView-->
+            <!--android:id="@+id/imageViewCompass"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:src="@drawable/compass04" />-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="QIBLA"-->
+            <!--android:textColor="#ffffff" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/downlogo"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/wellcome"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:onClick="wellcome"
+                    android:src="@drawable/wellcome12" />
+
+                <ImageButton
+                    android:id="@+id/about_us"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:onClick="about"
+                    android:src="@drawable/mosque" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:onClick="departmentLink"
+                    android:src="@drawable/department12" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:onClick="newsLink"
+                    android:src="@drawable/news12" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:onClick="eventLink"
+                    android:src="@drawable/event12" />
+
+                <ImageButton
+                    android:id="@+id/donate"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:onClick="donate"
+                    android:src="@drawable/minar" />
+
+                <ImageButton
+                    android:id="@+id/contact"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:onClick="contact"
+                    android:src="@drawable/contact12" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/donateLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#ffffff"
+                android:onClick="donateLink"
+                android:text="DONATE"
+                android:textColor="#005252"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#80ffffff">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:onClick="LinkOrg"
+                        android:text="www.iccuk.org"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:onClick="twiterLink"
+                        android:src="@drawable/twiter5" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:onClick="facebookLink"
+                        android:src="@drawable/facebook5" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:onClick="instagramLink"
+                        android:src="@drawable/instagram" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

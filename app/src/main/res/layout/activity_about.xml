@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.londoncentralmosque.AboutActivity">
+
+
+    <include
+        android:layout_height="90dp"
+        android:layout_width="match_parent"
+        layout="@layout/app_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="WELCOME MESSAGE"
+                    android:textAlignment="center"
+                    android:textColor="#005451"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#005451" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="On behalf of the London Central Mosque Trust and The Islamic Cultural Centre I am delighted to welcome you to our website (Mobile App).  We want to use these pages to provide you with regular updated information but also to give you an insight of the role and activities of the Centre."
+                            android:layout_gravity="left"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="left"
+                            android:text="The rich history of the Islamic Cultural Centre dates back to when a piece of land was originally presented as a gift to the Muslim Community by the British Government and from which the Centre was officially inaugurated by His Majesty King George VI in November 1944. The Board of Trustees of the Centre comprises of the Muslim Ambassadors and High Commissioners to the Court St. James and this reflects the cohesion and positive spirit which is present in our community. The role the Trustees play is of paramount importance in helping to foster an environment open to all cultures and backgrounds. We have actively created a culture of openness and expectations that truly welcomes interactions and dialogue between the Islamic Cultural Centre and all members of society, thus establishing and nurturing links with the community.  This helps to shape a core component of the vision and message of the Centre, its focus on community engagement, which has stretched across the decades since its establishment."
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" The Islamic Cultural Centre has many objectives and roles as it is involved in the religious, cultural and social life of London and the UK.  Chief among them is to promulgate the true meaning and understanding of Islam as a Religion of Peace, Tolerance and Coexistence, and hence the framework of all aspects of our work stems from this standpoint. "
+                            android:textColor="#000000"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="left"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" We face many challenges in society today.  Ranging from safeguarding our young people from extremism and radicalisation to empowering the role of Women in society, the span of the work undertaken by the Centre has rapidly increased over the years.  The Centre has a Religious Affairs Unit which not only offers the regular prayers but also advice and fatwa to the public. We also have an Interfaith and Outreach Department which creates dialogue with and amongst those of different faith communities.  In this we aim to spread harmony and interconnectedness between all people of faith. Moreover, The Centre has welcomed over many New Muslims in the last two years inside the Centre who interact with us through various lectures, events and courses. We also welcome on an annual basis over 15,000 students from the UK and abroad on guided tours in our Centre and permanent exhibitions.
+We aim to employ our services and expertise for the benefit of the whole community.  We support the distribution of the Holy Quran in 30 languages and provide registrar services, educational courses in Arabic Language, Religious Studies in English, Arabic, Persian with students of all ages. In this, as in all that we do, we aim to reach the highest possible standards of delivery."
+                            android:textColor="#000000"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="left"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="However, at the heart of all our efforts is you the people we serve. We welcome you to browse our app and more importantly our website which has much more information to find out more about the Centre and its role in society, much of which stems from your support. We also welcome any suggestions to help us improve further in our approach to serving and supporting our faith while building bridges with other communities of faith across London and the UK."
+                            android:textColor="#000000"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="left"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Dr. Ahmad Al-Dubayan"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Director General"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="About Us"
+                    android:textAllCaps="true"
+                    android:textColor="#005451"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#005451" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="It was in 1940, when the British Government was persuaded to present a site in London for the Muslim Community of Great Britain. It was in fact the Churchill war cabinet which authorized the acquisition of a site to build a mosque in London."
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="A prime site adjacent to Hanover Gate in Regents Park almost 2.3 acres in size was presented by the British Government as an unconditional gift to the Muslim Community in Britain so they may conduct affairs pertaining to the Islamic Faith. The Al-Azhar University in Cairo Egypt, had delegated an imam for the newly built mosque in Central London and continued to do so for many decades."
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="It was not however, until 1974 that construction of a purpose built mosque began. The present building is based on a design by Sir Frederick Gibberd, selected in 1973 from many others in an international competition."
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="The mosque took over two years to complete at the cost of £6 million with a generous donation from H.M King Faisal of Saudi Arabia and was later completed by His Highness Sheikh Zayed of the United Arab Emirates. Until today many countries participated in this unique mosque. In the 1990’s the London Central Mosque Trust and Islamic Cultural Centre received a generous donation from His Majesty King Fahad of Saudi Arabia for the extension of the administration wing. His Majesty Sultan Qaboos of the Sultanate of Oman granted a generous donation for the establishment of the restaurant and dining facilities. More Recently His Highness Sheikh Tamim bin Hamad Al Thani The Emir of Qatar has made significant contributions to the extension and renovation of the Centre. The State of Kuwait have also invested heavily in support of the Centre"
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="With The Board of Trustees of the Centre comprising of the Muslim Ambassadors and High Commissioners in London the Centre receives invaluable support and sustenance from across Muslim Nations in allowing it to serve the wider community."
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Activities of The Islamic Cultural Centre:"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="Within the Centre we have an education unit which comprises of a weekend school with over 350 students. The purpose of the weekend school is to teach Arabic Language and Islamic Studies weekly to students of many backgrounds and nationalities. "
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="The Centre also holds an interfaith department which collaborates with more than 30 organisations with regular dialogues and interfaith scriptural reasoning events to promote peace, interconnectedness and coexistence in society.
+"
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="The Centre also has an academic quarterly journal called the IQ – Islamic Quarterly which is published every 3 months containing numerous articles about the Islamic Civilisation. "
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="Moreover, the Centre holds a Religious affairs unit with qualified Imams to issue fatwa (Islamic Advice), Questions and answering sessions, conduct marriages, Divorces and conversion certificates and hold regular Islamic classes through the collaboration with the Registrar’s unit. "
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="The new Muslim programme initiative has been set up by the Islamic Cultural Centre and London Central Mosque to provide a spiritual, educational, religious and social support network for those who are interested to learn more about Islam, for those who have recently converted to Islam and for those born Muslim and who would like to learn more about their religion. We currently have a network of over 4000 New Muslims from the Centre who take part in this imitative."
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="The Islamic Cultural Centre is pleased to have one of the largest and oldest Islamic reference libraries. The Library has a rich selection of historic books and journals in English and Arabic. It holds copies of the Translations of the Qur'an in European/Arabic/Indic languages. There are more than 25,000 books in our library and copies of the Quran in 30 Languages. "
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="The Centre has many initiatives for Youth which include our Hikmah Youth Programme – a weekly Forum where students can take up many academic and interactive activities. Moreover, the Centre has an Arabic Cultural Saloon which fosters monthly intellectual lectures in Arabic for youth wanting to learn more about their cultures with topics ranging from history, literature, philosophy and Islamic heritage. "
+                            android:textColor="#000000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:text="Our Islamic exhibition, the first of its kind to be built in the United Kingdom, occupies over 60 meters of wall space and provides visitors with a visual journey through the Islamic faith. The wall based exhibition spans across two of the basement halls and incorporates video screens, models and posters to provide a multidimensional viewing experience for visitors. The exhibition aims to provide a greater understanding of the universal message of Islam, thereby encouraging meaningful and positive dialogue and promoting greater community understanding and harmony."
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <include
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        layout="@layout/custom_menu"
+        />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/footer"
+        />
+</LinearLayout>
